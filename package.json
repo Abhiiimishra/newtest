@@ -1,9 +1,12 @@
 {
   "name": "testapp",
   "version": "0.0.0",
+  "engines": {
+     "node": "16.13.x"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
